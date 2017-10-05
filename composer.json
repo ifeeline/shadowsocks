@@ -1,0 +1,27 @@
+{
+  "name": "ifeeline/shadowsocks",
+  "description": "PHP Shadowsocks Client With Workerman or Swoole",
+  "keywords": ["proxy","shadowsocks", "workerman", "swoole"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ifeeline",
+      "email": "ifeeline@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "workerman/workerman": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ifeeline\\Shadowsocks\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
